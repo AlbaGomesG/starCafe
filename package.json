@@ -1,0 +1,38 @@
+{
+  "name": "starcafe",
+  "version": "1.0.0",
+  "description": "Projeto sobre Starcafé - backeend de loja de cafés",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbaGomesG/starCaf-.git"
+  },
+  "keywords": [
+    "Senai",
+    "BackEnd",
+    "TDS1",
+    "NodeJs",
+    "API",
+    "Café"
+  ],
+  "author": "Giovanna Alba Gomes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlbaGomesG/starCaf-/issues"
+  },
+  "homepage": "https://github.com/AlbaGomesG/starCaf-#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
